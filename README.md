@@ -33,3 +33,17 @@ The project includes:
 ## Tools
 
 - MATLAB
+
+## Getting Started
+
+### Requirements
+
+- MATLAB
+
+### Running the Simulation
+
+1. Clone or download this repository.
+2. Open the project folder in MATLAB.
+3. Run `Main.m`.
+
+The script performs Monte Carlo simulations for the different channel models and compares the simulated results with analytical results.
