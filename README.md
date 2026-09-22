@@ -47,3 +47,31 @@ The project includes:
 3. Run `Main.m`.
 
 The script performs Monte Carlo simulations for the different channel models and compares the simulated results with analytical results.
+
+## Results
+
+### BER in Noise-Only Environments
+
+The simulated BER closely follows the analytical results for both AWGN and Laplacian noise. Compared with AWGN, Laplacian impulsive noise results in a significantly slower BER reduction as the SNR increases.
+
+![BER in noise-only environments](Results/Figure_1.png)
+
+### BER under Fading and Random User Deployment
+
+The BER performance is evaluated under Rayleigh and Rician fading for both fixed-distance and randomly deployed users. The simulation results closely agree with the corresponding analytical models.
+
+Random user deployment introduces additional performance degradation due to distance-dependent path loss.
+
+![BER under fading and random deployment](Results/Figure_2.png)
+
+### Outage Probability
+
+The outage probability is evaluated for Rayleigh and Rician fading channels. Both fixed-distance and randomly deployed user scenarios are considered and compared with analytical results.
+
+![Outage probability](Results/Figure_3.png)
+
+### Laplacian Noise Verification
+
+The generated Laplacian noise samples are verified by comparing their empirical PDF and CDF with the corresponding theoretical distributions.
+
+![Laplacian noise verification](Results/Laplacian_Verification.png)
